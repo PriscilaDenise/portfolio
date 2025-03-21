@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a44f30a1.css",
+    "main.js": "/portfolio/static/js/main.83559ef3.js",
+    "static/js/453.d73b0aaa.chunk.js": "/portfolio/static/js/453.d73b0aaa.chunk.js",
+    "static/media/Bungee video.mp4": "/portfolio/static/media/Bungee video.a3056cea29cfeb99f230.mp4",
+    "static/media/profile.jpeg": "/portfolio/static/media/profile.449ff8f0d09b40d56116.jpeg",
+    "index.html": "/portfolio/index.html",
+    "main.a44f30a1.css.map": "/portfolio/static/css/main.a44f30a1.css.map",
+    "main.83559ef3.js.map": "/portfolio/static/js/main.83559ef3.js.map",
+    "453.d73b0aaa.chunk.js.map": "/portfolio/static/js/453.d73b0aaa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a44f30a1.css",
+    "static/js/main.83559ef3.js"
+  ]
+}
