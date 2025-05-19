@@ -1,29 +1,43 @@
-import video from "../assets/Bungee video.mp4"
-function AboutComponent(){
-    return(
-    <> 
-        <section id="about">
-        <div className="container">
-            <h2>About Me</h2>
-            <p>Passionate about the ever-evolving technologies. I am on a journey of continuous learning and innovation.</p>
-            <h3>My Technical Skills</h3>
-            <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>SQL</li>
-            </ul>
-        </div>
+import React from 'react';
 
-        <div className="hobby">
-                <h3>My Hobby</h3>
-                <p>I love the thrill from such addrenaline filled activities. </p>
-                <video src={video} controls width="560" height="315"></video>
+function AboutComponent() {
+    return (
+        <div className="about-content">
+            <div className="about-text">
+                <p>
+                    I am a passionate Full Stack Developer with a strong foundation in both front-end and back-end technologies.
+                    My journey in software development has equipped me with the skills to create efficient, scalable, and user-friendly applications.
+                </p>
+                <p>
+                    With a keen eye for detail and a commitment to writing clean, maintainable code,
+                    I strive to deliver solutions that not only meet but exceed client expectations.
+                </p>
+                <p>
+                    When I'm not coding, I'm constantly learning and exploring new technologies
+                    to stay at the forefront of web development trends.
+                </p>
+            </div>
+            
+            <div className="about-highlights">
+                
+                
+                <div className="highlight-item">
+                    <h3>Experience</h3>
+                    <p>X years of professional development experience</p>
+                    <p>Specializing in web application development</p>
+                </div>
+                
+                <div className="highlight-item">
+                    <h3>Focus Areas</h3>
+                    <ul>
+                        <li>Full Stack Development</li>
+                        <li>Web Application Architecture</li>
+                        <li>User Experience Design</li>
+                        <li>Performance Optimization</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-
-        </section>
-    </>
     );
 }
 
